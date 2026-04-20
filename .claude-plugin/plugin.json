@@ -1,0 +1,13 @@
+{
+  "name": "coach",
+  "description": "Coach personnel d'entraînement — check-in conversationnel, création de séances Obsidian, analyse du carnet, recherche scientifique",
+  "version": "1.0.0",
+  "author": {
+    "name": "Alexandre Moreau",
+    "email": "pricedelu@gmail.com"
+  },
+  "homepage": "https://github.com/AlexandreMoreau2002/coach",
+  "repository": "https://github.com/AlexandreMoreau2002/coach",
+  "license": "MIT",
+  "keywords": ["training", "climbing", "obsidian", "fitness", "coach"]
+}
