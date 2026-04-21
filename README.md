@@ -13,18 +13,22 @@ Un assistant coach personnel qui connaît ton profil, lit ton carnet d'entraîne
 
 ## Installation
 
+### Claude Code
+
 ```bash
 claude plugins marketplace add AlexandreMoreau2002/coach
 claude plugins install coach
 ```
 
-Pour vérifier que le plugin est actif :
+### Codex
 
 ```bash
-claude plugins list
+git clone https://github.com/AlexandreMoreau2002/coach ~/.codex/coach
+mkdir -p ~/.agents/skills
+ln -s ~/.codex/coach/skills ~/.agents/skills/coach
 ```
 
-Le plugin apparaît sous le nom `coach`. Redémarre Claude Code si les skills ne sont pas disponibles immédiatement.
+Redémarre l'app pour découvrir les skills.
 
 ---
 
