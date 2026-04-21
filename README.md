@@ -26,7 +26,7 @@ claude plugins install coach
 codex plugin marketplace add AlexandreMoreau2002/coach
 ```
 
-Puis redemarre Codex. Le plugin expose ses skills via `.codex-plugin/plugin.json`.
+Puis redemarre Codex. Le plugin expose ses skills via `.codex-plugin/plugin.json` et la commande `/coach` via `commands/coach.md`.
 
 Fallback manuel si la commande marketplace n'est pas disponible sur une vieille version de Codex :
 
@@ -44,6 +44,12 @@ ln -sfn ~/.codex/coach/skills ~/.agents/skills/coach
 
 ```
 /coach
+```
+
+Dans Codex, tu peux aussi ecrire simplement :
+
+```
+coach
 ```
 
 Le coach te demande comment tu vas, puis propose de :
