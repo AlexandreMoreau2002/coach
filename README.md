@@ -1,7 +1,7 @@
 # Coach — Plugin d'entraînement personnel
 
 Plugin Claude Code pour Alexandre Moreau.
-Versionné dans [github.com/AlexandreMoreau2002/coach](https://github.com/AlexandreMoreau2002/coach).
+Versionné dans [github.com/AlexandreMoreau2002/config](https://github.com/AlexandreMoreau2002/config).
 
 ---
 
@@ -13,10 +13,9 @@ Un assistant coach personnel qui connaît ton profil, lit ton carnet d'entraîne
 
 ## Installation
 
-Depuis la racine du config repo :
-
 ```bash
-claude plugins install ./coach
+claude plugins marketplace add AlexandreMoreau2002/coach
+claude plugins install coach
 ```
 
 Pour vérifier que le plugin est actif :
@@ -25,7 +24,7 @@ Pour vérifier que le plugin est actif :
 claude plugins list
 ```
 
-Le plugin apparaît sous le nom `coach@local`. Redémarre Claude Code si les skills ne sont pas disponibles immédiatement.
+Le plugin apparaît sous le nom `coach`. Redémarre Claude Code si les skills ne sont pas disponibles immédiatement.
 
 ---
 
