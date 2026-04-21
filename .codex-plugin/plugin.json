@@ -1,0 +1,43 @@
+{
+  "name": "coach",
+  "version": "1.0.0",
+  "description": "Coach personnel d'entrainement pour planifier des seances, analyser un carnet Obsidian et rechercher les meilleures pratiques.",
+  "author": {
+    "name": "Alexandre Moreau",
+    "email": "pricedelu@gmail.com",
+    "url": "https://github.com/AlexandreMoreau2002"
+  },
+  "homepage": "https://github.com/AlexandreMoreau2002/coach",
+  "repository": "https://github.com/AlexandreMoreau2002/coach",
+  "license": "MIT",
+  "keywords": [
+    "training",
+    "climbing",
+    "obsidian",
+    "fitness",
+    "coach"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Coach",
+    "shortDescription": "Coach personnel d'entrainement avec carnet Obsidian.",
+    "longDescription": "Un assistant coach personnel qui connait le profil d'Alexandre, lit son carnet d'entrainement Obsidian, cree des seances adaptees et aide a reflechir aux methodes d'entrainement.",
+    "developerName": "Alexandre Moreau",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/AlexandreMoreau2002/coach",
+    "privacyPolicyURL": "https://github.com/AlexandreMoreau2002/coach",
+    "termsOfServiceURL": "https://github.com/AlexandreMoreau2002/coach",
+    "defaultPrompt": [
+      "Lance mon coach d'entrainement.",
+      "Cree une seance adaptee a mon etat du jour.",
+      "Analyse mes dernieres seances."
+    ],
+    "brandColor": "#0F766E",
+    "screenshots": []
+  }
+}
