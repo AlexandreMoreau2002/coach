@@ -26,7 +26,7 @@ claude plugins install coach
 codex plugin marketplace add AlexandreMoreau2002/coach
 ```
 
-Puis redemarre Codex. Le plugin expose ses skills via `.codex-plugin/plugin.json` et la commande `/coach` via `commands/coach.md`.
+Puis redemarre Codex. Le plugin expose ses skills via `.codex-plugin/plugin.json`.
 
 Fallback manuel si la commande marketplace n'est pas disponible sur une vieille version de Codex :
 
@@ -42,14 +42,22 @@ ln -sfn ~/.codex/coach/skills ~/.agents/skills/coach
 
 ### Depuis n'importe où
 
-```
+Dans Claude Code :
+
+```text
 /coach
 ```
 
-Dans Codex, tu peux aussi ecrire simplement :
+Dans Codex CLI, les slash commands custom de plugins ne sont pas exposees dans le popup `/` pour l'instant. Appelle le skill en langage naturel :
 
-```
+```text
 coach
+```
+
+ou :
+
+```text
+Lance mon coach d'entrainement.
 ```
 
 Le coach te demande comment tu vas, puis propose de :
