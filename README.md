@@ -1,7 +1,7 @@
 # Coach — Plugin d'entraînement personnel
 
 Plugin Claude Code pour Alexandre Moreau.
-Versionné dans [github.com/AlexandreMoreau2002/config](https://github.com/AlexandreMoreau2002/config).
+Versionné dans [github.com/AlexandreMoreau2002/config](https://github.com/AlexandreMoreau2002/coach).
 
 ---
 
