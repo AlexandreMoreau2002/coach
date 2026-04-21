@@ -1,0 +1,22 @@
+{
+  "name": "local",
+  "owner": {
+    "name": "Alexandre Moreau",
+    "email": "pricedelu@gmail.com"
+  },
+  "metadata": {
+    "description": "Local Claude Code plugins for Alexandre"
+  },
+  "plugins": [
+    {
+      "name": "coach",
+      "description": "Coach personnel d'entraînement — check-in conversationnel, création de séances Obsidian, analyse du carnet, recherche scientifique",
+      "version": "1.0.0",
+      "source": "./",
+      "author": {
+        "name": "Alexandre Moreau",
+        "email": "pricedelu@gmail.com"
+      }
+    }
+  ]
+}
