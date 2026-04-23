@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "obsidian-carnet": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "@bitbonsai/mcpvault@latest", "/Users/alex/Library/Mobile Documents/iCloud~md~obsidian/Documents/carnet d'entrainement"]
+    }
+  }
+}
