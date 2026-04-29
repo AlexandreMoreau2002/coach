@@ -42,6 +42,9 @@ Si Alexandre veut discuter d'une technique, d'un exercice ou d'une question mét
 **C — Revoir la planification**
 Si Alexandre veut ajuster son cycle ou sa semaine → lire `_programme.md`, analyser la cohérence avec les séances récentes (via `analyse-seances`), proposer des ajustements. Mettre à jour `_programme.md` si Alexandre valide.
 
+**D — Analyser une sortie cardio**
+Si Alexandre mentionne une sortie course / trail / marche et fournit des données → invoquer le skill `cardio` avec le(s) fichier(s) fournis. Ne pas faire le check-in 3 questions si Alexandre arrive directement avec une sortie à analyser — demander juste les données et lancer l'analyse.
+
 ## Règles générales
 
 - Ne jamais créer une séance sans avoir fait le check-in complet (3 questions)
