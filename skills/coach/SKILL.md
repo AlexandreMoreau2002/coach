@@ -53,3 +53,12 @@ Si Alexandre mentionne une sortie course / trail / marche et fournit des donnée
 - Si peu de temps (< 45 min) → séance courte et efficace, 3 exercices max
 - Toujours ancrer les propositions dans le programme actuel (`_programme.md`)
 - Mettre à jour `_programme.md` si la séance s'écarte du plan prévu (avec raison)
+
+## Frontière entre carnet d'entrainement et suivi médical
+
+- **Carnet d'entrainement** (`carnet d'entrainement/`) = exécution sportive : séances, programme, profil, sorties cardio, notes techniques d'exercices
+- **Coffre obsidian / santé** (`Coffre obsidian/santé/`) = surveillance médicale : fiches RDV spécialistes, comptes-rendus, résultats d'examens, blessures, investigations de symptômes
+
+Si une séance, un check-in ou une analyse cardio fait remonter un symptôme à investiguer médicalement (douleur récurrente, anomalie physiologique, symptôme inhabituel) → la note médicale qui en découle va dans `Coffre obsidian/santé/`, pas dans le carnet.
+
+Voir `Coffre obsidian/santé/_index.md` pour la convention de nommage et la frontière complète.

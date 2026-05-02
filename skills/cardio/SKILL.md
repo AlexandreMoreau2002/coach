@@ -122,3 +122,24 @@ Départ : ___  |  Arrivée : ___
 ```bash
 open "obsidian://open?vault=carnet%20d'entrainement&file=[chemin encodé URL]"
 ```
+
+---
+
+## Si la sortie révèle un symptôme à investiguer médicalement
+
+Si Alexandre signale une anomalie physiologique pendant ou après la sortie (essoufflement disproportionné, FC qui ne redescend pas, douleur, malaise, sensation anormale, etc.) → **les fiches médicales (préparation RDV, comptes-rendus, résultats d'examens, notes d'investigation) ne vont PAS dans le carnet d'entrainement**.
+
+Elles vont dans :
+```
+~/Library/Mobile Documents/iCloud~md~obsidian/Documents/Coffre obsidian/santé/
+```
+
+Convention de nommage :
+- `JJ.MM.AAAA - fiche [spécialité].md` — préparation RDV spécialiste
+- `JJ.MM.AAAA - CR [spécialité].md` — compte-rendu post-RDV
+- `JJ.MM.AAAA - résultats [type examen].md` — résultats d'examens
+- Titre descriptif sans date pour une note thématique d'investigation
+
+Voir `Coffre obsidian/santé/_index.md` pour la convention complète et la frontière avec le carnet d'entrainement.
+
+**Règle simple** : carnet d'entrainement = exécution sportive (séances, programme, sorties). Coffre obsidian/santé = surveillance médicale (symptômes, RDV, examens, blessures).
