@@ -15,6 +15,7 @@ Arguments attendus : type de séance, durée, date (optionnelle — aujourd'hui 
 - Début/fin de séance : deux lignes vides à remplir en haut
 - Maximum 4-5 exercices
 - Durée respectée strictement
+- Séance de salle : suivre le cycle muscu de `_programme.md` et du skill `methodes` (top set + 2-3 back-off, charges de départ = dernière séance du carnet, tractions en pronation)
 
 ## Structure type
 

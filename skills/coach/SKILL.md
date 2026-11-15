@@ -52,6 +52,7 @@ Si Alexandre mentionne une sortie course / trail / marche et fournit des donnée
 - Si fatigue élevée → proposer séance légère ou technique (grimpe, doigts légers, mobilité)
 - Si peu de temps (< 45 min) → séance courte et efficace, 3 exercices max
 - Toujours ancrer les propositions dans le programme actuel (`_programme.md`)
+- Pour toute séance de salle (muscu), appliquer la section « Cycle muscu surcharge progressive » du skill `methodes` (structure top set + back-off, double progression, vitesse max, signaux de freinage). Tractions toujours en pronation.
 - Mettre à jour `_programme.md` si la séance s'écarte du plan prévu (avec raison)
 
 ## Frontière entre carnet d'entrainement et suivi médical
